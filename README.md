@@ -1,2 +1,2 @@
 # Random-HTML-CSS
-Very outdated random files from learning HTML and CSS (Mostly in Polish)
+Outdated files from 2016. Mostly learning HTML and CSS (in Polish)
