@@ -1,0 +1,99 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<style type="text/css">
+			#Stopka {
+				background-color: rgb(0, 0, 256) !important;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<table>
+				<tr>
+					<td>Imie:</td>
+					<td><input type="text" id="name" /></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="email" id="email" /></td>
+				</tr>
+				<tr>
+					<td>Data urodzenia:</td>
+					<td><input type="date" id="birth" /></td>
+				</tr>
+				<tr>
+					<td>Płeć:</td>
+					<td>
+						<input type="radio" name="a" id="m" /> M
+						<input type="radio" name="a" id="f" /> K
+					</td>
+				</tr>
+				<tr>
+					<td>Hasło:</td>
+					<td><input type="password" id="password"/></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Zatwierdź" />
+					</td>
+					<td>
+						<input type="reset" value="Reset"/>
+						<input type="button" value="Sprawdź" 
+							onclick="btnKlik()" />
+					</td>
+				</tr>
+			</table>
+			
+		</form>
+		
+		<div id="Stopka">
+			Proszę wypełnić formularz
+		</div>
+		
+		<div id="zegarek">
+			
+		</div>
+		
+		<script type="text/javascript">
+			//alert('Hej');
+			
+			function btnKlik() {
+				alert('Klik');
+				document.getElementById('Stopka').innerHTML = "Zmiana";
+				document.getElementById('name').style.display = "none";
+			}
+			
+			function ustawGodzine() {
+				var date = new Date();
+				
+				var hours = date.getHours();
+				var minutes = date.getMinutes();
+				var sec = date.getSeconds();
+				
+				if (minutes < 10) {
+					minutes = "0" + minutes;
+				}
+				if (sec < 10) {
+					sec = "0" + sec;
+				}
+				
+				//text-align: center; width: 100%;
+				
+				document.getElementById('zegarek').innerText = 
+					hours + ":" + minutes + ":" + sec;
+					
+				setTimeout(ustawGodzine, 1000);
+				
+				//hh:mm:ss dzien/miesiac/rok //HackIT odkrywanieit.pl
+				//.getDate()
+				//.getMonth();
+				//.getFullYear()
+			}
+			ustawGodzine();
+			
+		</script>
+	</body>
+</html>
