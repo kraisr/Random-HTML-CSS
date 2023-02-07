@@ -1,0 +1,64 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "8870252f5da59a63564fb6790a347c8e",
+      "css": "linkedin-rect",
+      "code": 62226,
+      "src": "websymbols"
+    },
+    {
+      "uid": "6f7586c6f99798c3c1de6123d1f6cfa9",
+      "css": "facebook",
+      "code": 59392,
+      "src": "zocial"
+    },
+    {
+      "uid": "2d3ce9463ed5525c6faa01f84c957843",
+      "css": "youtube",
+      "code": 62227,
+      "src": "websymbols"
+    },
+    {
+      "uid": "4568bba1dba45522fc539c733c9b35e5",
+      "css": "twitter",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "500fc1f109021e4b1de4deda2f7ed399",
+      "css": "laptop",
+      "code": 61705,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "79d27b578931fd441a6dc885c9dd88a6",
+      "css": "address-card",
+      "code": 62139,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "63b86fedd4ee9ad2105f54f4888e7088",
+      "css": "info",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "b49fa3e57e92b38143e0fdcc5d9a904b",
+      "css": "gmail",
+      "code": 59395,
+      "src": "zocial"
+    },
+    {
+      "uid": "20fc52f9a88bb7bda023ef209acac095",
+      "css": "graduation-cap",
+      "code": 61853,
+      "src": "fontawesome"
+    }
+  ]
+}
