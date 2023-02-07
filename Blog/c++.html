@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<title>C++</title>
+	<meta charset="utf-8">
+	<meta name="Description" content="Blog związany z językami programowania i systemami operacyjnymi">
+	<meta name="Keywords" content="html,blog,it,js,ruby,c++,cpp,javascript,python,lua">
+	
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontello.css">
+</head>
+
+
+<body>
+	<header>
+		<div class="logo">
+			Blog Informatyczny
+		</div>
+		
+		<nav>
+			<div id="navigation">
+				<ul class="menu">
+					<li><a href="index.html">Strona główna</a></li>
+					<li><a href="webdevelopmen.html">Web Development</a></li>
+					<li><a href="os.html">Systemy Operacyjne</a></li>
+					<li><a href="jezykiprogramowania.html">Języki Programowania</a></li>
+					<li><a href="author.html">O autorze</a></li>
+					<li><a href="contact.html">Kontakt</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		<article>
+			<div class="container">
+				<h1>Cechy standardów</h1>
+				Projekt języka C++ usiłuje zachować możliwie jak największą zgodność (na poziomie kodu źródłowego) z językiem C. Zgodność pomiędzy obydwoma językami nie zawsze była całkowita, ale jak dotąd ewentualne różnice były w praktyce nieistotne. Większym problemem związanym ze zgodnością była niekompatybilność kompilatorów języka C++ w zakresie obsługiwanej składni – przez wiele lat programy napisane pod jednym nie działały pod innym. Biblioteki C++ związane z interfejsami systemów nie są przenośne poza ich obręb, co wynika z faktu, że takie interfejsy są specyficzne dla danego systemu i nie dotyczy to wyłącznie C++.
+				<br /><br />
+				Większość użytecznych programów w C++ wymaga stosowania bibliotek niestandardowych. Są one łatwo dostępne w Sieci zarówno jako produkty własnościowe, jak i jako FLOSS. Programy napisane w C++ mogą korzystać również z zasobów bibliotek języka C.
+
+				Język C++ posiada swój oficjalny standard (aktualnie jest to C++14 z 2014).
+
+				Język C++ nie jest własnością żadnej osoby, instytucji czy korporacji.
+
+				<h1>Właściwości języka</h1>
+				Język C++ jest językiem wieloparadygmatowym. Oznacza to, że można w nim stosować jednocześnie różne style programowania, w tym programowanie proceduralne, obiektowe, generyczne, jak również programować na poziomie asemblera.
+				Język C++ zakłada statyczną kontrolę typów; posiada też elementy dynamicznej kontroli typów.
+				Język C++ umożliwia bezpośrednie zarządzanie wolną pamięcią.
+				Projekt języka zakłada, że żadna nowa (względem języka C) cecha języka C++ nie może mieć negatywnego wpływu na szybkość działania programu lub zapotrzebowanie na pamięć operacyjną. Dzięki temu dobrze napisany program w C++ jest z reguły co najmniej równie szybki, jak jego odpowiednik napisany w C; co więcej, dzięki możliwości zastosowania algorytmów generycznych w wielu przypadkach C++ jest wyraźnie szybszy od C (np. podczas sortowania).
+				Język C++ ze względu na bardzo rozbudowaną składnię oraz surowe wymogi w zakresie wydajności kodu stanowi duże wyzwanie dla twórców kompilatorów.
+				Do dziś (2012) żaden popularny kompilator nie jest w pełni zgodny z obowiązującym standardem języka, aczkolwiek ewentualne niezgodności dotyczą już tylko drugorzędnych cech języka (np. implementacji słowa kluczowego export).
+				
+				<h1>Historia</h1>
+				Język C++ został stworzony w latach osiemdziesiątych XX wieku (pierwsza wersja pojawiła się w 1979 r.) przez Bjarne Stroustrupa jako obiektowe rozszerzenie języka C. Poza językiem C, na definicję języka C++ miały wpływ takie języki, jak Simula (z której zaczerpnął właściwości obiektowe) oraz Algol, Ada, ML i Clu.
+				<br /><br />
+				Początkowo język C++ był dostępny w takim standardzie, w jakim opracowano ostatnią wersję kompilatora Cfront (tłumaczący C++ na C), później opublikowano pierwszy nieformalny standard zwany ARM (Annotated Reference Manual), który sporządzili Bjarne Stroustrup i Margaret Ellis. Standard języka C++ powstał w 1998 roku (ISO/IEC 14882-1998 "Information Technology – Programming Languages – C++"). Standard ten zerwał częściowo wsteczną zgodność z ARM w swojej bibliotece standardowej; jedyne, co pozostało w stanie w miarę nienaruszonym to biblioteka iostream.
+				<br /><br />
+				Początkowo najważniejszą zmianą wprowadzoną w C++ w stosunku do C było programowanie obiektowe, później jednak zaimplementowano wiele innych ulepszeń, mających uczynić ten język wygodniejszym i bardziej elastycznym od swojego pierwowzoru. Niektóre zmiany w standardzie języka C były zainspirowane językiem C++ (np. słowo inline w C99).
+				<br /><br />
+				Nazwa języka została zaproponowana przez Ricka Mascitti w 1983 roku, kiedy to po raz pierwszy użyto tego języka poza laboratorium naukowym. Odzwierciedla ona fakt, że język ten jest rozszerzeniem języka C. Wcześniej używano nazwy „C z klasami”. Nazwa języka C++ nawiązuje do faktu bycia "następcą języka C", przez użycie w niej operatora inkrementacji "++".
+				<br /><br />
+				<h1>Przykładowy program</h1>
+				Poniższy program wyprowadza na standardowe urządzenie wyjścia napis "Hello world":
+				<br /><br />
+					<div class="example">
+						#include <iostream>
+						<br /><br />
+						int main()
+						<br /><br />
+						{
+						<br />
+							std::cout << "Hello world";
+						<br />
+						}
+						<br /><br />
+					</div>
+					
+				<br/><br/>
+				
+				<div class="sources">
+					Źródła: <a href="http://wikipedia.com">Wikipedia</a>
+				</div>
+				
+			</div>
+		</article>
+	</main>
+	
+	<footer>
+	
+		<div class="socials">
+			<div class="socialdivs">
+				<div class="fb">
+					<a href="http://facebook.com"><i class="icon-facebook"></i></a>
+				</div>
+				<div class="yt">
+					<a href="http://youtube.com"><i class="icon-youtube"></i></a>
+				</div>
+				<div class="tw">
+					<a href="http://twitter.com"><i class="icon-twitter"></i></a>
+				</div>
+				<div class="gplus">
+					<a href="https://plus.google.com/"><i class="icon-gplus"></i></a>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		
+		<div class="info">
+			Wszelkie prawa zastrzeżone &copy; 2017 Dziękuję za wizytę! 
+		</div>
+		
+	</footer>
+</body>
+
+</html>

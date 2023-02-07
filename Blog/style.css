@@ -1,0 +1,356 @@
+body 
+{
+	/* Background pattern from Subtle Patterns */
+	background-image: url("img/background.png");
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	color: #cccccc;
+}
+
+.logo
+{
+	text-align: center;
+	text-transform: uppercase;	
+	font-size: 55px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navigation
+{
+
+	text-align:center;
+
+}
+
+.menu
+{
+	list-style-type: none;
+	font-size: 18px;
+	text-align: center;
+	background-color: #00b300;
+	color: black;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.menu > li
+{
+	padding-left: 25px;
+	padding-right: 25px;
+	display: inline-block;
+	border-right: 1px solid black;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px solid black;
+}
+
+.entry
+{
+	width: 970px;
+	padding: 10px;
+	text-align: justify;
+	background-image: url("img/background.png");
+	padding-bottom: 20px;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+
+h1
+{
+	color: #00b300;
+	font-size: 30px;
+}
+
+.sources a
+{
+	color: #cccccc;
+	text-decoration: none;
+}
+
+.sources a:hover
+{
+	color: black;
+}
+
+.menu a
+{
+	color: #cccccc;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: black;
+}
+
+.categories
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding: 0;
+	margin-top: 55px;
+}
+
+.entrytxt
+{
+	display: inline-block;
+	width: 750px;
+	font-size: 15px;
+}
+
+.entries
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin-top: 40px;
+}
+
+#newest
+{
+	background-image: url("img/background2.png");
+}
+
+.codingimg
+{
+	padding-bottom: 30px;
+}
+
+.entryimg
+{
+	display: inline-block;
+	margin-left: 30px;
+	width: 110px;
+}
+
+.entryimg img
+{
+	width: 90px;
+	height: 90px;
+}
+
+.entrytxt
+{
+	display: inline-block;
+	width: 750px;
+	font-size: 15px;
+}
+
+.entrytxt a:hover
+{
+	color: #00b300;
+	text-decoration: underline;
+}
+
+.entrytxt a
+{
+	color: #cccccc;
+	text-decoration: none;
+}
+
+#contact
+{
+	background-image: url("img/background.png");
+	text-align: center;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.greenbutton
+{
+	background-color: #00b300;
+	border-radius: 5px;
+	padding: 15px;
+	color: black;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 300px;
+	
+}
+
+.greenbutton:hover
+{
+	color: #cccccc;
+	background-color: #00a200;
+}
+
+.socials
+{
+	background-image: url("img/background2.png");
+	margin-top: 70px;
+	width:100%;
+	text-align: center;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.tw:hover
+{
+	background-color:  #3095d3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.container
+{
+	width: 1000px;
+	background-image: url("img/background2.png");
+	margin-right: auto;
+	margin-left:auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.example
+{
+	width: 313px;
+	background-image: url("img/background.png");
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	text-align: justify;
+	padding-left: 20px;
+	padding-top: 15px;
+	border-radius: 5px;
+}
+
+.example2
+{
+	width: 600px;
+	background-image: url("img/background2.png");
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	text-align: center;
+	padding-left: 20px;
+	padding-top: 15px;
+	border-radius: 5px;
+	padding-bottom: 15px;
+}
+
+.fb a
+{
+	color: white;
+}
+
+.yt a
+{
+	color: white;
+}
+
+.tw a
+{
+	color: white;
+}
+
+.gplus a
+{
+	color: white;
+}
+
+.info a
+{
+	color: #cccccc;
+	text-decoration: none;
+}
+
+.info a:hover
+{
+	color: black;
+}
+
+.image
+{
+	display: inline-block;
+	border-radius: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.image a
+{
+	opacity: 1;
+}
+
+.image a:hover
+{
+	opacity: 0.5;
+}
+
+.container2
+{
+	margin-top: 40px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left:auto;
+	text-align: center;
+	padding: 15px;
+}
