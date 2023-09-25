@@ -3,7 +3,7 @@
 
 ### Or copy paste the following into your browser: https://kraisr.github.io/Random-HTML-CSS/.
 
-### Very outdated files from learning HTML and CSS (in Polish)
+### Very outdated files from learning HTML and CSS (content written in Polish)
 
 - [Animations & Hovers](Animations%20and%20Hovers)
 
