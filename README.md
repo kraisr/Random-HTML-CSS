@@ -1,5 +1,9 @@
 # Random-HTML-CSS (around 2016)
-Very outdated files from learning HTML and CSS (in Polish)
+### To get preview use this [link to github pages](https://kraisr.github.io/Random-HTML-CSS/) of this repository 
+
+### Or copy paste the following into your browser: https://kraisr.github.io/Random-HTML-CSS/.
+
+### Very outdated files from learning HTML and CSS (in Polish)
 
 - [Animations & Hovers](Animations%20and%20Hovers)
 
