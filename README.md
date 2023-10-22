@@ -15,4 +15,4 @@
 
 - [Login Form example](Login%20Form)
 
-- [Page sample](Strona/strona.html)
+- [Page sample](Strona)
